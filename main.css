@@ -37,6 +37,10 @@ a {
   background-color: #ffffff;
 }
 
+.colorLightBlue {
+  background-color: #e8f0f5;
+}
+
 .topHeader {
   height: 20px;
   padding: 15px 0px 15px 30px;
@@ -81,7 +85,6 @@ a {
 }
 
 .midUpperContainer {
-  background-color: #e8f0f5;
   padding: 10rem;
 }
 
@@ -101,14 +104,12 @@ a {
   background-color: #000000;
 }
 
-.midLowerConatiner {
-  background-color: #ed2204;
+.LowerConatiner {
   padding: 140px 32px 70px 32px;
 }
 
-.midLowerInsideContainer {
+.LowerInsideContainer {
   height: 412px;
-  background-color: pink;
 }
 
 .bottomContainer {
