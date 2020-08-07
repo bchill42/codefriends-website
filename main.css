@@ -9,16 +9,16 @@ a {
   text-decoration: none;
 }
 
+.colorBlue {
+  background-color: #1e8cbe;
+}
+
 .colorMaroon {
   background-color: #560003;
 }
 
 .colorDarkBlue {
-  background-color: #2d3f51;
-}
-
-.colorBlue {
-  background-color: #1e8dd6;
+  background-color: #344151;
 }
 
 .colorGray {
@@ -33,6 +33,10 @@ a {
   background-color: #111111;
 }
 
+.colorWhite {
+  background-color: #ffffff;
+}
+
 .topHeader {
   height: 20px;
   padding: 15px 0px 15px 30px;
@@ -40,12 +44,51 @@ a {
 }
 
 .topContainer {
-  background-color: #ed2204;
-  height: 385px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topContainerTop {
+  font-size: 3rem;
+  margin: 20rem 0rem 3rem 0rem;
+}
+
+.topContainerMiddle {
+  font-size: 1rem;
+}
+
+.topContainerButton {
+  border: 0.1rem solid red;
+  padding: 1rem 10rem;
+  margin-top: 2rem;
+}
+
+.topContainerArrow {
+  background-color: white;
+  padding: 1rem;
+  margin: 15rem 0rem 10rem 0rem;
+}
+
+.topContainerBottom {
+  margin-bottom: 3rem;
+}
+
+.topContent {
+  margin: 1rem 0rem 1rem 0rem;
+  padding: 1rem 5rem 1rem 5rem;
+  background-color: white;
+}
+
+.midUpperContainer {
+  background-color: #e8f0f5;
+  padding: 10rem;
 }
 
 .midContainers {
+  background-color: #d1d3d7;
   border-bottom: 3px solid #e0d4d5;
+  padding: 1rem;
 }
 
 .midInsideContainers {
