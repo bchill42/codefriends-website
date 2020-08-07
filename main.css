@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  color: #e0d4d5;
+  font-weight: bold;
+}
+
+a {
+  color: #e0d4d5;
+  text-decoration: none;
+}
+
+.colorMaroon {
+  background-color: #560003;
+}
+
+.colorDarkBlue {
+  background-color: #2d3f51;
+}
+
+.colorBlue {
+  background-color: #1e8dd6;
+}
+
+.colorGray {
+  background-color: #909dab;
+}
+
+.colorDarkGray {
+  background-color: #7f8c8d;
+}
+
+.colorBlack {
+  background-color: #111111;
+}
+
+.topHeader {
+  height: 20px;
+  padding: 15px 0px 15px 30px;
+  margin: 0px;
+}
+
+.topContainer {
+  background-color: #ed2204;
+  height: 385px;
+}
+
+.midContainers {
+  border-bottom: 3px solid #e0d4d5;
+}
+
+.midInsideContainers {
+  height: 225px;
+  margin: 64px 10px 32px 10px;
+}
+
+.midMiddleContainer {
+  height: 997px;
+  background-color: #000000;
+}
+
+.midLowerConatiner {
+  background-color: #ed2204;
+  padding: 140px 32px 70px 32px;
+}
+
+.midLowerInsideContainer {
+  height: 412px;
+  background-color: pink;
+}
+
+.bottomContainer {
+  height: 204px;
+  background-color: #000000;
+}
+
+.topContainer2 {
+  height: 315px;
+}
+
+.midSmallContainers {
+  height: 40px;
+}
+
+.midLowerConatiner2 {
+  padding: 25px 25px 25px 25px;
+}
+
+.midLowerInsideContainer2 {
+  height: 375px;
+}
+
+.bottomLargeContainer {
+  margin: 45px 25px 40px 25px;
+}
+
+.bottomLargeTop {
+  height: 275;
+  margin-bottom: 45px;
+}
+
+.bottomSmallContainer {
+  height: 25px;
+  margin-top: 35px;
+}
+
+/* .bottomSmallContainer:first-of-type {
+  margin-top: 400px;
+} */
+
+.bottomMid {
+  height: 75px;
+  margin-top: 35px;
+}
+
+.bottomConatiner2 {
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 25px;
+}
+
+.bottomInsideContainer2 {
+  height: 45px;
+}
