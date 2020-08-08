@@ -1,11 +1,10 @@
 body {
   margin: 0;
-  color: #e0d4d5;
-  font-weight: bold;
+  color: #ffffff;
+  font-family: Helvetica;
 }
 
 a {
-  color: #e0d4d5;
   text-decoration: none;
 }
 
@@ -17,8 +16,12 @@ a {
   background-color: #560003;
 }
 
-.colorDarkBlue {
+.colorMidBlue {
   background-color: #0070a4;
+}
+
+.colorDarkBlue {
+  background-color: #344151;
 }
 
 .colorGray {
@@ -42,54 +45,80 @@ a {
 }
 
 .topHeader {
-  height: 20px;
-  padding: 15px 0px 15px 30px;
-  margin: 0px;
+  display: flex;
 }
 
 .topHeaderLogoConatiner {
   display: flex;
+  align-items: center;
+  flex: 6;
   flex-direction: row;
+  padding: 1rem 0rem 1rem 0rem;
 }
 
 .loginContainer {
-}
-
-.topContainer {
+  flex: 1;
   display: flex;
-  flex-direction: column;
+  font-size: 1.5rem;
+  padding: 1rem 0rem 1rem 0rem;
+  justify-content: center;
   align-items: center;
 }
 
+.logo {
+  padding: 0.5rem 2rem 0rem 2rem;
+}
+
+.companyName {
+  font-size: 2rem;
+}
+
+.topContainer {
+  background-size: cover;
+  background-image: url("./images/crowd.jpg");
+}
+
 .topContainerTop {
-  font-size: 3rem;
-  margin: 20rem 0rem 3rem 0rem;
+  font-size: 4rem;
+  padding: 19rem 7rem 0rem 7rem;
+  text-align: center;
 }
 
 .topContainerMiddle {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  margin: 3rem 10rem 2rem 10rem;
+  text-align: center;
 }
 
 .websiteButton {
-  border: 0.1rem solid red;
-  padding: 1rem 10rem;
-  margin-top: 2rem;
+  border: 1rem solid rgba(0, 0, 0, 0.7);
+  padding: 1.5rem 3.5rem;
+  margin: 5rem 18rem 0rem 18rem;
 }
 
 .topContainerArrow {
-  background-color: white;
-  padding: 1rem;
-  margin: 15rem 0rem 10rem 0rem;
+  font-size: 2rem;
+  text-align: center;
+  margin: 29rem 0rem 10rem 0rem;
 }
 
 .topContainerBottom {
-  margin-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 
 .topContent {
+  display: flex;
   margin: 1rem 0rem 1rem 0rem;
-  padding: 1rem 5rem 1rem 5rem;
-  background-color: white;
+  padding: 1rem 5rem 1rem 20rem;
+}
+
+.topContentImage {
+  margin: 0rem 1rem;
+}
+
+.topContentTitle {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .midUpperContainer {
