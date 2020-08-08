@@ -18,7 +18,7 @@ a {
 }
 
 .colorDarkBlue {
-  background-color: #344151;
+  background-color: #0070a4;
 }
 
 .colorGray {
@@ -47,6 +47,14 @@ a {
   margin: 0px;
 }
 
+.topHeaderLogoConatiner {
+  display: flex;
+  flex-direction: row;
+}
+
+.loginContainer {
+}
+
 .topContainer {
   display: flex;
   flex-direction: column;
@@ -62,7 +70,7 @@ a {
   font-size: 1rem;
 }
 
-.topContainerButton {
+.websiteButton {
   border: 0.1rem solid red;
   padding: 1rem 10rem;
   margin-top: 2rem;
@@ -105,6 +113,8 @@ a {
 }
 
 .LowerConatiner {
+  display: flex;
+  justify-content: center;
   padding: 140px 32px 70px 32px;
 }
 
@@ -114,7 +124,29 @@ a {
 
 .bottomContainer {
   height: 204px;
+  display: flex;
+  flex-direction: column;
   background-color: #000000;
+}
+
+.bottomInside {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 15rem 0rem;
+  margin-top: 2.2rem;
+}
+
+.bottomInsideMiddle {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 20rem 0rem;
+  margin-top: 2.2rem;
+}
+
+.bottomInsideBottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.2rem;
 }
 
 .topContainer2 {
