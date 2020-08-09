@@ -44,6 +44,10 @@ a {
   background-color: #e8f0f5;
 }
 
+.colorImgBackground {
+  background-color: #c7d2d8;
+}
+
 .topHeader {
   display: flex;
 }
@@ -122,18 +126,48 @@ a {
 }
 
 .midUpperContainer {
-  padding: 10rem;
+  padding: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  color: #000;
+}
+
+.midBody {
+  background-color: #d1d3d7;
 }
 
 .midContainers {
   background-color: #d1d3d7;
-  border-bottom: 3px solid #e0d4d5;
   padding: 1rem;
 }
 
+.midcontainers:first-of-type {
+  padding-top: 3rem;
+}
+
+.midContainers:last-of-type {
+  padding-bottom: 2rem;
+}
+
 .midInsideContainers {
-  height: 225px;
-  margin: 64px 10px 32px 10px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 1rem;
+  padding: 3rem 0rem 1rem 0rem;
+}
+
+.midInsideImg {
+  padding: 1rem 0rem 1rem 0rem;
+  margin: 0rem 26rem;
+}
+
+.midInsideTitle {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.midInsideContent {
+  padding: 0rem 2rem 2rem 2rem;
 }
 
 .midMiddleContainer {
@@ -141,14 +175,12 @@ a {
   background-color: #000000;
 }
 
-.LowerConatiner {
-  display: flex;
-  justify-content: center;
-  padding: 140px 32px 70px 32px;
+.lowerConatiner {
+  text-align: center;
+  padding-bottom: 3rem;
 }
 
-.LowerInsideContainer {
-  height: 412px;
+.lowerInsideContainer {
 }
 
 .bottomContainer {
@@ -156,6 +188,12 @@ a {
   display: flex;
   flex-direction: column;
   background-color: #000000;
+}
+
+.lowerContainerContent {
+  color: #000;
+  font-size: 2rem;
+  padding-top: 5rem;
 }
 
 .bottomInside {
