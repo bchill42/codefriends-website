@@ -101,7 +101,8 @@ a {
 
 .websiteButton {
   text-align: center;
-  border: 0.6rem solid rgba(0, 0, 0, 0.7);
+  border: 0.6rem solid rgba(0, 0, 0, 0.4);
+  background-clip: padding-box;
   padding: 0.7rem 0rem;
   margin: 1.5rem 6.5rem 0rem 6.5rem;
 }
